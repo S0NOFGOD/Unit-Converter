@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" 
+        content="width=device-width, initial-scale=1.0">
+        <title>Javascript Demo</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <h1>SONOFGOD</h1>
+        <div>
+            <h1>Unit Converter</h1>
+            <input type="number" placeholder="Enter number..." 
+            id="userInput"><br><br>
+            <select id="unit">
+            <option value="milesToKm">Miles to Kilometers</option>
+            <option value="kmToMiles">Kilometers to Miles</option>
+            </select><br><br>
+            <button onclick="convert()">Convert</button>
+            <p>Result: <span id="resultElement">0</span></p>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
